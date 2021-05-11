@@ -219,7 +219,6 @@ ________________________________________________
 /***********************************************/
 /********************FOOTER*********************/
 /**********************************************/
-
 footer {
   display: flex;
   justify-content: center;
@@ -230,13 +229,10 @@ footer {
   font-family: roboto;
   font-size: 18px;
   color: #707070;
-  /* font-weight: normal; */
 }
-
 #ftnouscontacter {
   font-size: 20px;
   align-items: center;
-
   display: flex;
   justify-content: center;
   align-items: center;
@@ -245,7 +241,6 @@ span.ftnouscontacter {
   font-size: 60px;
   font-family: "OstrichSansHeavy";
 }
-
 #ftreseaux {
   display: flex;
   justify-content: center;
@@ -259,12 +254,11 @@ span.ftnouscontacter {
   margin-right: 30px;
   margin-left: 30px;
 }
-
 #ftreseauxicons {
   display: flex;
   justify-content: space-evenly;
-  padding-bottom: 40px;
-  padding-top: 60px;
+  width: 60%;
+  margin-bottom: 60px;
 }
 
 #ftcopyrights {
@@ -274,41 +268,33 @@ span.ftnouscontacter {
   justify-content: center;
   align-items: center;
 }
-
 #ftcopyrights a {
   text-decoration: underline;
   text-underline-offset: 2px;
   color: #707070;
 }
-
 #ftcopyrights a:hover {
   color: rgb(28, 28, 28);
 }
-
-/*
 #ftreseauxicons a i {
   color: #707070;
 }
-
 #ftreseauxicons a i:hover {
   color: rgb(28, 28, 28);
-} 
-
-/* #logoinsta {
+}
+#logoinsta {
   animation-name: movingAround;
   animation-duration: 6s;
   animation-delay: 2s;
   animation-iteration-count: infinite;
 }
-
 #logofacebook {
   animation-name: movingAround;
   animation-duration: 6s;
   animation-delay: 5s;
   animation-iteration-count: infinite;
-} */
-
-/* ------------------------------------- ANIMATIONS --------------------------
+}
+/* ------------------------------------- ANIMATIONS --------------------------*/
 
 @keyframes movingAround {
   0% {
@@ -331,4 +317,4 @@ span.ftnouscontacter {
   100% {
     transform: translateX(0%);
   }
-} */
+}
